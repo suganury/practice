@@ -1,5 +1,12 @@
+# 
+# リポジトリ全体共通無視設定
+# 
+
+# .NET porject
 *.dll
 *.pdb
 obj
 bin
-CoverageReportPoc/*
+
+# VisualStudioCode
+.vscode
