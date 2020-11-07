@@ -6,7 +6,7 @@ namespace AttributesTest
 {
     public static class DummyTarget
     {
-        static IDictionary<string, NintendoGameCharacter> nintendoChara = new Dictionary<string, NintendoGameCharacter>(){
+        public static IDictionary<string, NintendoGameCharacter> nintendoChara = new Dictionary<string, NintendoGameCharacter>(){
             {"MBr", new NintendoGameCharacter(1983, "マリオ", "ピーチ", "クッパ")},
             {"LoZ", new NintendoGameCharacter(1986, "リンク", "ゼルダ", "ガノン")},
             {"Pok", new NintendoGameCharacter(1996, "サトシ", "カスミ", "シゲル")},
