@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace AttributesTest
+namespace TestAttributesPractice
 {
     [TestFixture]
     public class Tests {
